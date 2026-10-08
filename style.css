@@ -76,7 +76,7 @@ body{
     gap: 12px;
     background-color: var(--white);
     border: 2px solid var(--ocean-blue-dark);
-    border-radius: 30px; /* Lengkungan bulat terkesan ramah anak */
+    border-radius: 30px; 
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1rem;
@@ -158,6 +158,13 @@ body{
     font-size: 0.9rem;
 }
 
+.signup-link {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--ocean-blue-dark);
+    margin-top: 1rem;
+}
+
 .submit-btn {
     width: 100%;
     padding: 0.9rem;
@@ -182,14 +189,13 @@ body{
     }
 
     .illustration-panel {
-        /* Gambar lautan disembunyikan pada layar kecil untuk fokus pada form */
         display: none; 
     }
 
     .form-panel {
         max-width: 100%;
         padding: 2rem;
-        min-height: 100vh; /* Memastikan form mengisi layar di perangkat mobile */
+        min-height: 100vh;
         justify-content: center;
     }
 }
